@@ -94,7 +94,6 @@
         }
     </style>
 
-
 </head>
 
 <body>
@@ -103,7 +102,7 @@
         <div class="container mx-auto px-4 md:px-8">
             <div class="flex justify-between items-center">
                 <!-- Logo -->
-                <a href="#" class="text-2xl font-bold text-gradient flex items-center gap-2">
+                <a href="#about" class="text-2xl font-bold text-gradient flex items-center gap-2">
                     <i class=""></i>K T | PortFolio
                 </a>
 
@@ -115,10 +114,10 @@
                     <a href="#experience"
                         class="text-gray-300 hover:text-white transition-colors duration-300">Experience</a>
                     <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
-                    <a href="https://drive.google.com/file/d/1lNVzX6HiI6OtmDJI7y4BCGyoZCzTeAvL/view?usp=sharing"
+                    <!-- <a href=""
                         class="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-6 rounded-full transition-all duration-300 flex items-center gap-2">
                         <i class="ri-download-line"></i> Resume
-                    </a>
+                    </a> -->
                 </nav>
 
                 <!-- Mobile Menu Button -->
@@ -138,10 +137,10 @@
                     class="text-gray-300 hover:text-white transition-colors duration-300 py-2">Experience</a>
                 <a href="#contact"
                     class="text-gray-300 hover:text-white transition-colors duration-300 py-2">Contact</a>
-                <a href="https://drive.google.com/file/d/1lNVzX6HiI6OtmDJI7y4BCGyoZCzTeAvL/view?usp=sharing"
+                <!-- <a href=""
                     class="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-6 rounded-full transition-all duration-300 flex items-center gap-2 justify-center">
                     <i class="ri-download-line"></i> Resume
-                </a>
+                </a> -->
             </div>
         </div>
     </header>
@@ -161,14 +160,14 @@
                     </h1>
 
                     <h2 class="text-2xl md:text-3xl text-indigo-300 font-medium">
-                        <span class="typing-text">Full-Stack Developer</span>
+                        <span class="typing-text">Data Analyst</span>
                     </h2>
 
                     <p class="text-gray-300 text-lg max-w-lg">
-                        Passionate about crafting seamless digital experiences that merge innovation with functionality.
+                        Passionate about transforming raw data into meaningful Insights that drive Business Decisions.
                         <br>
-                        I specialize in developing responsive, user-focused web applications using modern web
-                        technologies.
+                        I specialize in Data Analysis, Visualization, and Storytelling using tools like Python, SQL,
+                        Excel, and Power BI.
                     </p>
 
                     <div class="flex flex-wrap gap-4 pt-4">
@@ -179,7 +178,7 @@
                     </div>
 
                     <div class="flex gap-6 pt-4">
-                        <a href="https://github.com/KamalNayanTiwary"
+                        <a href="https://github.com/KamalNayanTiwary?tab=repositories"
                             class="text-xl text-gray-400 hover:text-white transition-colors duration-300">
                             <i class="ri-github-fill"></i>
                         </a>
@@ -249,7 +248,7 @@
 
         // Typing Effect
         const text = document.querySelector('.typing-text');
-        const roles = ['Full-Stack Developer', 'Problem Solver',];
+        const roles = ['Data Analyst', 'Data Storyteller', 'Problem Solver', 'Insight Generator'];
         let roleIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
@@ -346,14 +345,18 @@
 
         <!-- About Text Center Aligned -->
         <div class="max-w-4xl mx-auto text-center px-4 mb-12">
-            <h3 class="text-2xl md:text-3xl font-semibold text-white mb-4">Full-Stack Developer </h3>
+            <h3 class="text-2xl md:text-3xl font-semibold text-white mb-4">Data Analyst</h3>
             <p class="text-gray-300 mb-4">
-                Hi there! I'm Kamal, at NSHM College of Engineering & Technology. Currently I’m pursuing a Bachelor of
-                Technology (CSE) program. I am sharpening my skills in Full Stack Development using the MERN stack.
+                Hi there! I'm Kamal, a B.Tech (CSE) student at NSHM College of Engineering & Technology, specializing in
+                Data Analytics.
+                I focus on Python, SQL, Excel, and Power BI, combined with strong knowledge of Statistics and
+                Data Visualization,
+                to turn raw data into actionable business insights.
             </p>
             <p class="text-gray-300">
-                I'm a passionate web developer. My journey in tech began with a curiosity about how things work behind
-                the scenes, which led me to dive deep into both frontend and backend technologies.
+                II'm a passionate Data Analyst. My journey in tech began with a curiosity about uncovering patterns
+                hidden in data, which led me to dive deep into SQL, BI tools, Python, Statistics, and Excel to transform
+                raw data into actionable insights.
             </p>
         </div>
 
@@ -362,7 +365,7 @@
 
             <!-- Left: Image -->
             <div class="flex justify-start md:justify-start pl-4 md:ml-[-40px] w-full items-start">
-                <div class="w-full max-w-[375px] h-[500px] mt-20">
+                <div class="w-full max-w-[410px] h-[650px] mt-20">
                     <div
                         class="p-2 h-full bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 rounded-2xl shadow-[0_0_30px_rgba(139,92,246,0.4)]">
                         <div class="rounded-2xl bg-slate-900 p-1 h-full">
@@ -374,8 +377,6 @@
             </div>
 
 
-
-
             <!-- Right: Skills -->
             <div class="space-y-6 md:pl-4">
                 <!-- Skills Section Title -->
@@ -384,74 +385,122 @@
                         <span class="text-gradient">Skills</span>
                     </h2>
                 </div>
-                <!-- Frontend -->
+                <!-- Programming & Data Handling -->
                 <div>
-                    <h5 class="text-indigo-400 font-semibold mb-2">Frontend</h5>
+                    <h5 class="text-indigo-400 font-semibold mb-2">Programming & Data Handling</h5>
                     <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                        <div
-                            class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg border border-slate-700 hover:border-indigo-500/50 transition-colors duration-300">
-                            <i class="ri-html5-fill text-xl text-orange-500"></i>
-                            <span>HTML/CSS</span>
-                        </div>
-                        <div
-                            class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg border border-slate-700 hover:border-indigo-500/50 transition-colors duration-300">
-                            <i class="ri-reactjs-line text-xl text-blue-400"></i>
-                            <span>React</span>
-                        </div>
-                        <div
-                            class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg border border-slate-700 hover:border-indigo-500/50 transition-colors duration-300">
-                            <i class="ri-paint-brush-line text-xl text-indigo-400"></i>
-                            <span>Tailwind CSS</span>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Backend -->
-                <div>
-                    <h5 class="text-indigo-400 font-semibold mb-2">Backend</h5>
-                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                        <div
-                            class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg border border-slate-700 hover:border-indigo-500/50 transition-colors duration-300">
-                            <i class="ri-node-tree text-xl text-green-500"></i>
-                            <span>Node.js</span>
-                        </div>
-                        <div
-                            class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg border border-slate-700 hover:border-indigo-500/50 transition-colors duration-300">
-                            <i class="ri-server-line text-xl text-red-400"></i>
-                            <span>Express.js</span>
-                        </div>
-                        <div
-                            class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg border border-slate-700 hover:border-indigo-500/50 transition-colors duration-300">
-                            <i class="ri-database-2-line text-xl text-purple-500"></i>
-                            <span>MongoDB</span>
-                        </div>
-                        <div
-                            class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg border border-slate-700 hover:border-indigo-500/50 transition-colors duration-300">
-                            <i class="ri-database-line text-xl text-blue-400"></i>
-                            <span>SQL</span>
-                        </div>
-                    </div>
-                </div>
+                        <!-- Python -->
+                        <div class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg 
+    border border-slate-700 transition-all duration-300 transform 
+    hover:scale-105 hover:shadow-lg hover:border-yellow-400">
 
-                <!-- Languages -->
-                <div>
-                    <h5 class="text-indigo-400 font-semibold mb-2">Languages</h5>
-                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                         <div
-                            class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg border border-slate-700 hover:border-indigo-500/50 transition-colors duration-300">
-                            <i class="ri-code-line text-xl text-yellow-300"></i>
+                            <!-- Official Python Snake Logo -->
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python Logo" class="w-7 h-7">
+
                             <span>Python</span>
                         </div>
-                         <div
-                            class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg border border-slate-700 hover:border-indigo-500/50 transition-colors duration-300">
-                            <i class="ri-javascript-fill text-xl text-yellow-400"></i>
-                            <span>JavaScript</span>
+
+
+                        <!-- Pandas -->
+                        <div class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg 
+    border border-slate-700 transition-all duration-300 transform 
+    hover:scale-105 hover:shadow-lg hover:border-purple-400">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                                alt="Pandas Logo" class="w-7 h-7">
+
+                            <span>Pandas</span>
                         </div>
-                        <div
-                            class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg border border-slate-700 hover:border-indigo-500/50 transition-colors duration-300">
-                            <i class="ri-cup-line text-xl text-red-500"></i>
-                            <span>Java</span>
+
+
+                        <!-- NumPy -->
+                        <div class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg 
+    border border-slate-700 transition-all duration-300 transform 
+    hover:scale-105 hover:shadow-lg hover:border-blue-400">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                                alt="NumPy Logo" class="w-7 h-7">
+
+                            <span>NumPy</span>
                         </div>
+
+
+                        <!-- SQL -->
+                        <div class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg 
+        border border-slate-700 transition-all duration-300 transform 
+        hover:scale-105 hover:shadow-lg hover:border-blue-400">
+                            <i class="ri-database-2-line text-xl text-blue-400"></i>
+                            <span>SQL</span>
+                        </div>
+
+                        <!-- Excel -->
+                        <div class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg 
+        border border-slate-700 transition-all duration-300 transform 
+        hover:scale-105 hover:shadow-lg hover:border-green-500">
+                            <i class="ri-file-excel-2-line text-xl text-green-500"></i>
+                            <span>Excel</span>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Data Visualization -->
+                <div>
+                    <h5 class="text-indigo-400 font-semibold mb-2">Data Visualization</h5>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+
+                        <!-- Power BI -->
+                        <div class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg 
+    border border-slate-700 transition-all duration-300 transform 
+    hover:scale-105 hover:shadow-lg hover:border-yellow-400">
+                            <i class="ri-bar-chart-box-line text-xl text-yellow-400"></i>
+                            <span>Power BI</span>
+                        </div>
+
+                        <!-- Matplotlib & Seaborn -->
+                        <div class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg 
+        border border-slate-700 transition-all duration-300 transform 
+        hover:scale-105 hover:shadow-lg hover:border-red-400">
+                            <i class="ri-line-chart-line text-xl text-red-400"></i>
+                            <span>Matplotlib & Seaborn</span>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Statistics & Analysis -->
+                <div>
+                    <h5 class="text-indigo-400 font-semibold mb-2">Statistics & Analysis</h5>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+
+                        <!-- Statistical Analysis -->
+                        <div class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg 
+        border border-slate-700 transition-all duration-300 transform 
+        hover:scale-105 hover:shadow-lg hover:border-yellow-400">
+                            <i class="ri-function-line text-xl text-yellow-400"></i>
+                            <span>Statistical Analysis</span>
+                        </div>
+
+                        <!-- EDA -->
+                        <div class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg 
+        border border-slate-700 transition-all duration-300 transform 
+        hover:scale-105 hover:shadow-lg hover:border-pink-400">
+                            <i class="ri-brain-line text-xl text-pink-400"></i>
+                            <span>Exploratory Data Analysis (EDA)</span>
+                        </div>
+
+                        <!-- Data Interpretation -->
+                        <div class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg 
+        border border-slate-700 transition-all duration-300 transform 
+        hover:scale-105 hover:shadow-lg hover:border-purple-400">
+                            <i class="ri-lightbulb-flash-line text-xl text-purple-400"></i>
+                            <span>Data Interpretation</span>
+                        </div>
+
                     </div>
                 </div>
 
@@ -459,42 +508,76 @@
                 <div>
                     <h5 class="text-indigo-400 font-semibold mb-2">Tools</h5>
                     <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                        <div
-                            class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg border border-slate-700 hover:border-indigo-500/50 transition-colors duration-300">
-                            <i class="ri-file-word-2-line text-xl text-blue-400"></i>
-                            <span>MS Office</span>
+
+
+                        <!-- VS Code -->
+                        <div class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg 
+    border border-slate-700 transition-all duration-300 transform 
+    hover:scale-105 hover:border-indigo-500">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                                alt="VS Code Logo" class="w-7 h-7">
+
+                            <span>VS Code</span>
                         </div>
-                        <div
-                            class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg border border-slate-700 hover:border-indigo-500/50 transition-colors duration-300">
+
+
+                        <!-- Git -->
+                        <div class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg 
+        border border-slate-700 transition-all duration-300 transform 
+        hover:scale-105 hover:border-orange-400">
                             <i class="ri-git-branch-line text-xl text-orange-400"></i>
                             <span>Git</span>
                         </div>
-                        <div
-                            class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg border border-slate-700 hover:border-indigo-500/50 transition-colors duration-300">
+
+                        <!-- GitHub -->
+                        <div class="skill-item flex items-center gap-3 bg-slate-800/70 p-3 rounded-lg 
+        border border-slate-700 transition-all duration-300 transform 
+        hover:scale-105 hover:border-white">
                             <i class="ri-github-fill text-xl text-white"></i>
                             <span>GitHub</span>
                         </div>
+
                     </div>
                 </div>
+
+
+                <div class="pt-6">
+                    <h5 class="text-indigo-400 font-semibold mb-3">Languages</h5>
+                    <div class="flex flex-wrap gap-3">
+
+                        <!-- English -->
+                        <span class="px-4 py-2 rounded-full text-sm font-medium 
+                 bg-gradient-to-r from-indigo-500/20 to-indigo-400/20 
+                 text-indigo-300 border border-indigo-500/30 
+                 hover:from-indigo-500/30 hover:to-indigo-400/30 
+                 hover:scale-105 transition-all duration-300 flex items-center gap-2">
+                            <i class="ri-english-input text-lg"></i> English
+                        </span>
+
+                        <!-- Hindi -->
+                        <span class="px-4 py-2 rounded-full text-sm font-medium 
+                 bg-gradient-to-r from-green-500/20 to-green-400/20 
+                 text-green-300 border border-green-500/30 
+                 hover:from-green-500/30 hover:to-green-400/30 
+                 hover:scale-105 transition-all duration-300 flex items-center gap-2">
+                            <i class="ri-translate-2 text-lg"></i> Hindi
+                        </span>
+
+                    </div>
+                </div>
+
+
+
                 <!-- Personal Info -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
-                    <div class="flex items-center gap-3">
-                        <i class="ri-calendar-line text-indigo-400"></i>
-                        <span>Born: 01 Nov 2004</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <i class="ri-translate-2 text-indigo-400"></i>
-                        <span>Languages: English, Hindi</span>
-                    </div>
-                    <!-- Email + Resume Button Row -->
                     <div class="flex flex-wrap items-center gap-4 mt-4">
 
                         <!-- Resume Button -->
-                        <a href="https://drive.google.com/file/d/1lNVzX6HiI6OtmDJI7y4BCGyoZCzTeAvL/view?usp=sharing"
-                            download
+                        <!-- <a href="" download
                             class="px-5 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white transition flex items-center">
                             <i class="ri-download-line mr-2"></i> Download Resume
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
@@ -561,257 +644,99 @@
 
                 <!-- Filter Buttons -->
                 <div class="flex flex-wrap justify-center gap-3 mt-8">
-                    <!-- <button
-                        class="filter-btn active py-2 px-5 rounded-full text-sm font-medium bg-indigo-600 text-white transition-all duration-300"
-                        data-filter="all">All Projects</button> -->
-                    <!-- <button
-                        class="filter-btn py-2 px-5 rounded-full text-sm font-medium bg-slate-800 text-gray-300 hover:bg-indigo-600/20 hover:text-white border border-indigo-500/30 transition-all duration-300"
-                        data-filter="ui">UI/UX</button> -->
                 </div>
             </div>
 
 
             <!-- Projects Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Project Card 1: Kamal's Grocery -->
-                <div class="project-card group" data-category="web">
+                <!-- Project Card 1: Sales Analytics Excel Dashboard -->
+                <div class="project-card group" data-category="data">
                     <div
                         class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 h-full transform transition-all duration-500 hover:-translate-y-2">
                         <div class="overflow-hidden relative">
-                            <img src="proj_2.png" alt="Kamal's Grocery"
+                            <img src="proj-1.png" alt="Sales Analytics Excel Dashboard"
                                 class="w-full h-64 object-cover object-center transition-transform duration-700 group-hover:scale-105">
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-60">
                             </div>
                             <div class="absolute top-4 right-4 flex gap-2">
-                                <a href="https://kamal-s-grocery-1.onrender.com/"
+                                <a href="https://onedrive.live.com/:x:/g/personal/2935C051A8231C73/EQbJq5gFjblHvuxa1wpnYQgBKyY58KksqqE5IAxYyzXnMA?resid=2935C051A8231C73!s98abc9068d0547b9beec5ad70a676108&ithint=file%2Cxlsx&e=nK0ssF&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy8yOTM1YzA1MWE4MjMxYzczL0VRYkpxNWdGamJsSHZ1eGExd3BuWVFnQkt5WTU4S2tzcXFFNUlBeFl5elhuTUE_ZT1uSzBzc0Y"
                                     class="bg-slate-800/90 backdrop-blur-sm p-2 rounded-full hover:bg-indigo-600"
                                     title="View Live"><i class="ri-external-link-line"></i></a>
-                                <a href="https://github.com/KamalNayanTiwary/Kamal-s-Grocery"
+                                <a href="https://github.com/KamalNayanTiwary/Business-Insights-Dashboard"
                                     class="bg-slate-800/90 backdrop-blur-sm p-2 rounded-full hover:bg-indigo-600"
-                                    title="View Code"><i class="ri-github-line"></i></a>
+                                    title="View File"><i class="ri-github-line"></i></a>
                             </div>
                         </div>
                         <div class="p-6">
-                            <h3 class="text-xl font-semibold mb-2 text-white">Kamal's Grocery</h3>
-                            <p class="text-gray-400 mb-2">This is a fully responsive, user-friendly Grocery Store Web Application.It allows users to browse and purchase grocery items online, manage their profiles, maintain a wishlist, and update account details. 
-                                </p>
-                            <p class="text-sm text-indigo-400">Next.js, React,HTML, Tailwind CSS,Javascript</p>
+                            <h3 class="text-xl font-semibold mb-2 text-white">Business-Insights-Dashboard</h3>
+                            <p class="text-gray-400 mb-2">
+                                A dynamic Excel-based dashboard built using pivot tables, slicers, and interactive
+                                charts
+                                to analyze sales performance. It highlights key insights on revenue trends, product
+                                performance, customer segments, and regional distribution.
+                                <br>
+                                <span class="text-indigo-400">Key KPIs:</span> Total Sales, Profit Margin, Top Products,
+                                Regional Revenue
+                            </p>
+                            <p class="text-sm text-indigo-400">Microsoft Excel, Pivot Tables, Charts, Data Cleaning</p>
                         </div>
                     </div>
                 </div>
 
-                  <!-- Project Card 2: Restaurant Website -->
-                <div class="project-card group" data-category="ui">
-                    <div
-                        class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 h-full transform transition-all duration-500 hover:-translate-y-2">
-                        <div class="overflow-hidden relative">
-                            <img src="proj_4.png" alt="Restaurant Website"
-                                class="w-full h-64 object-cover object-center transition-transform duration-700 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-60">
-                            </div>
-                            <div class="absolute top-4 right-4 flex gap-2">
-                                <a href="https://kamalnayantiwary.github.io/Restaurant-Website/"
-                                    class="bg-slate-800/90 backdrop-blur-sm p-2 rounded-full hover:bg-indigo-600"
-                                    title="View Live"><i class="ri-external-link-line"></i></a>
-                                <a href="https://github.com/KamalNayanTiwary/Restaurant-Website"
-                                    class="bg-slate-800/90 backdrop-blur-sm p-2 rounded-full hover:bg-indigo-600"
-                                    title="View Code"><i class="ri-github-line"></i></a>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold mb-2 text-white">Restaurant Website</h3>
-                            <p class="text-gray-400 mb-2">A sleek and responsive restaurant website built using HTML, CSS, and Vanilla JavaScript. Designed to showcase the restaurant’s brand, 
-                                food menu, ambience, and contact details with an elegant user interface.</p>
-                            <p class="text-sm text-indigo-400">Built using HTML, CSS, and JavaScript</p>
-                        </div>
-                    </div>
+
+
+
+
+
+
+                <!-- GitHub Projects Button -->
+                <div class="text-center my-12">
+                    <a href="https://github.com/KamalNayanTiwary?tab=repositories" target="_blank"
+                        class="inline-flex items-center gap-3 bg-gray-800 hover:bg-indigo-600 text-white font-medium py-3 px-6 rounded-full transition duration-300 shadow-lg">
+                        <i class="ri-github-fill text-2xl"></i>
+                        More Projects on GitHub
+                    </a>
                 </div>
 
-                <!-- Project Card 3: Shopping e-Commerce Website -->
-                <div class="project-card group" data-category="web">
-                    <div
-                        class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 h-full transform transition-all duration-500 hover:-translate-y-2">
-                        <div class="overflow-hidden relative">
-                            <img src="proj_3.png" alt="Shopping eCommerce"
-                                class="w-full h-64 object-cover object-center transition-transform duration-700 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-60">
-                            </div>
-                            <div class="absolute top-4 right-4 flex gap-2">
-                                <a href="https://kamal-e-commerce-website.vercel.app/"
-                                    class="bg-slate-800/90 backdrop-blur-sm p-2 rounded-full hover:bg-indigo-600"
-                                    title="View Live"><i class="ri-external-link-line"></i></a>
-                                <a href="https://github.com/KamalNayanTiwary/Kamal-eCommerce-Website"
-                                    class="bg-slate-800/90 backdrop-blur-sm p-2 rounded-full hover:bg-indigo-600"
-                                    title="View Code"><i class="ri-github-line"></i></a>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold mb-2 text-white">Shopping e-Commerce Website</h3>
-                            <p class="text-gray-400 mb-2">A modern, responsive shopping website created using HTML, CSS, and JavaScript, featuring a clean layout, product listings, 
-                                and interactive UI elements. Built to simulate a real online store experience for users.</p>
-                            <p class="text-sm text-indigo-400">Built using HTML, CSS, JavaScript</p>
-                        </div>
-                    </div>
-                </div>
+                <script>
+                    // Project Filtering
+                    document.addEventListener('DOMContentLoaded', function () {
+                        const filterBtns = document.querySelectorAll('.filter-btn');
+                        const projectCards = document.querySelectorAll('.project-card');
 
-                 <!-- Project Card 4: Kamal Cryptobucks -->
-                <div class="project-card group" data-category="web">
-                    <div
-                        class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 h-full transform transition-all duration-500 hover:-translate-y-2">
-                        <div class="overflow-hidden relative">
-                            <img src="proj_5.png" alt="Kamal CryptoBucks"
-                                class="w-full h-64 object-cover object-center transition-transform duration-700 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-60">
-                            </div>
-                            <div class="absolute top-4 right-4 flex gap-2">
-                                <a href="https://kamal-crypto-bucks.vercel.app/"
-                                    class="bg-slate-800/90 backdrop-blur-sm p-2 rounded-full hover:bg-indigo-600"
-                                    title="View Live"><i class="ri-external-link-line"></i></a>
-                                <a href="https://github.com/KamalNayanTiwary/Kamal-CryptoBucks"
-                                    class="bg-slate-800/90 backdrop-blur-sm p-2 rounded-full hover:bg-indigo-600"
-                                    title="View Code"><i class="ri-github-line"></i></a>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold mb-2 text-white">Kamal Cryptobucks</h3>
-                            <p class="text-gray-400 mb-2">Created a real-time cryptocurrency analytics dashboard tracking 1000+ digital assets with live price, volume, and
-                              market cap updates.Implemented debounced data polling, reducing redundant API calls by 65% and improving performance.</p>
-                            <p class="text-sm text-indigo-400">ReactJs, Tailwind CSS, Recharts, CoinGecko API</p>
-                        </div>
-                    </div>
-                </div>
+                        filterBtns.forEach(btn => {
+                            btn.addEventListener('click', () => {
+                                // Update active button
+                                filterBtns.forEach(b => {
+                                    b.classList.remove('active', 'bg-indigo-600', 'text-white');
+                                    b.classList.add('bg-slate-800', 'text-gray-300', 'hover:bg-indigo-600/20', 'hover:text-white', 'border', 'border-indigo-500/30');
+                                });
 
-                 <!-- Project Card 5: Youtube Clone -->
-                <div class="project-card group" data-category="web">
-                    <div
-                        class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 h-full transform transition-all duration-500 hover:-translate-y-2">
-                        <div class="overflow-hidden relative">
-                            <img src="proj_6.png" alt="Youtube Clone"
-                                class="w-full h-64 object-cover object-center transition-transform duration-700 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-60">
-                            </div>
-                            <div class="absolute top-4 right-4 flex gap-2">
-                                <a href="https://kamalnayantiwary.github.io/Youtube_clone/"
-                                    class="bg-slate-800/90 backdrop-blur-sm p-2 rounded-full hover:bg-indigo-600"
-                                    title="View Live"><i class="ri-external-link-line"></i></a>
-                                <a href="https://github.com/KamalNayanTiwary/Youtube_clone"
-                                    class="bg-slate-800/90 backdrop-blur-sm p-2 rounded-full hover:bg-indigo-600"
-                                    title="View Code"><i class="ri-github-line"></i></a>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold mb-2 text-white">Youtube Clone</h3>
-                            <p class="text-gray-400 mb-2">The YouTube Clone project replicates the core UI and features of the popular video-sharing platform, focusing on a responsive layout, interactive video cards, and search functionality. 
-                                    This project was built to strengthen frontend development skills while exploring media handling and dynamic content rendering..</p>
-                            <p class="text-sm text-indigo-400">Built using HTML, CSS, JavaScript</p>
-                        </div>
-                    </div>
-                </div>
+                                btn.classList.add('active', 'bg-indigo-600', 'text-white');
+                                btn.classList.remove('bg-slate-800', 'text-gray-300', 'hover:bg-indigo-600/20', 'hover:text-white', 'border', 'border-indigo-500/30');
 
-                 <!-- Project Card 6: Gaana -->
-                <div class="project-card group" data-category="web">
-                    <div
-                        class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 h-full transform transition-all duration-500 hover:-translate-y-2">
-                        <div class="overflow-hidden relative">
-                            <img src="proj_7.png" alt="Gaana 2"
-                                class="w-full h-64 object-cover object-center transition-transform duration-700 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-60">
-                            </div>
-                            <div class="absolute top-4 right-4 flex gap-2">
-                                <a href="https://kamalnayantiwary.github.io/Gaana-2/"
-                                    class="bg-slate-800/90 backdrop-blur-sm p-2 rounded-full hover:bg-indigo-600"
-                                    title="View Live"><i class="ri-external-link-line"></i></a>
-                                <a href="https://github.com/KamalNayanTiwary/Gaana-2"
-                                    class="bg-slate-800/90 backdrop-blur-sm p-2 rounded-full hover:bg-indigo-600"
-                                    title="View Code"><i class="ri-github-line"></i></a>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold mb-2 text-white">Gaana 2</h3>
-                            <p class="text-gray-400 mb-2">Gaana 2 is a music streaming web application inspired by popular platforms like Gaana and Spotify. The project focuses on a smooth and 
-                                engaging UI that allows users to play songs, browse playlists, and experience a music player interface — all in a single-page application style.</p>
-                            <p class="text-sm text-indigo-400">Built using HTML, CSS, JavaScript, Bootstrap, Audio API</p>
-                        </div>
-                    </div>
-                </div>
+                                const filter = btn.getAttribute('data-filter');
 
-                  <!-- Project Card 7: Amazon Clone -->
-                <div class="project-card group" data-category="web">
-                    <div
-                        class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 h-full transform transition-all duration-500 hover:-translate-y-2">
-                        <div class="overflow-hidden relative">
-                            <img src="proj_8.png" alt="Amazon Clone"
-                                class="w-full h-64 object-cover object-center transition-transform duration-700 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-60">
-                            </div>
-                            <div class="absolute top-4 right-4 flex gap-2">
-                                <a href="https://kamalnayantiwary.github.io/Amazon-Clone/"
-                                    class="bg-slate-800/90 backdrop-blur-sm p-2 rounded-full hover:bg-indigo-600"
-                                    title="View Live"><i class="ri-external-link-line"></i></a>
-                                <a href="https://github.com/KamalNayanTiwary/Amazon-Clone"
-                                    class="bg-slate-800/90 backdrop-blur-sm p-2 rounded-full hover:bg-indigo-600"
-                                    title="View Code"><i class="ri-github-line"></i></a>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold mb-2 text-white">Amazon Clone</h3>
-                            <p class="text-gray-400 mb-2">The Amazon Clone is a frontend-based e-commerce web application that mimics the core UI and functionality of Amazon’s homepage and product browsing experience. It was built to learn and 
-                                implement real-world shopping site features such as product listings, cart handling, responsive design, and dynamic interaction.</p>
-                            <p class="text-sm text-indigo-400">Built using HTML, CSS, JavaScript, Bootstrap</p>
-                        </div>
-                    </div>
-                </div>
-
-              
-            </div>
-
-            <!-- GitHub Projects Button -->
-            <div class="text-center my-12">
-                <a href="https://github.com/KamalNayanTiwary?tab=repositories" target="_blank"
-                    class="inline-flex items-center gap-3 bg-gray-800 hover:bg-indigo-600 text-white font-medium py-3 px-6 rounded-full transition duration-300 shadow-lg">
-                    <i class="ri-github-fill text-2xl"></i>
-                    More Projects on GitHub
-                </a>
-            </div>
-
-            <script>
-                // Project Filtering
-                document.addEventListener('DOMContentLoaded', function () {
-                    const filterBtns = document.querySelectorAll('.filter-btn');
-                    const projectCards = document.querySelectorAll('.project-card');
-
-                    filterBtns.forEach(btn => {
-                        btn.addEventListener('click', () => {
-                            // Update active button
-                            filterBtns.forEach(b => {
-                                b.classList.remove('active', 'bg-indigo-600', 'text-white');
-                                b.classList.add('bg-slate-800', 'text-gray-300', 'hover:bg-indigo-600/20', 'hover:text-white', 'border', 'border-indigo-500/30');
-                            });
-
-                            btn.classList.add('active', 'bg-indigo-600', 'text-white');
-                            btn.classList.remove('bg-slate-800', 'text-gray-300', 'hover:bg-indigo-600/20', 'hover:text-white', 'border', 'border-indigo-500/30');
-
-                            const filter = btn.getAttribute('data-filter');
-
-                            // Filter projects
-                            projectCards.forEach(card => {
-                                if (filter === 'all' || card.getAttribute('data-category') === filter) {
-                                    card.style.display = 'block';
-                                    // Add animation
-                                    card.classList.add('animate-fadeIn');
-                                    setTimeout(() => {
-                                        card.classList.remove('animate-fadeIn');
-                                    }, 500);
-                                } else {
-                                    card.style.display = 'none';
-                                }
+                                // Filter projects
+                                projectCards.forEach(card => {
+                                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                                        card.style.display = 'block';
+                                        // Add animation
+                                        card.classList.add('animate-fadeIn');
+                                        setTimeout(() => {
+                                            card.classList.remove('animate-fadeIn');
+                                        }, 500);
+                                    } else {
+                                        card.style.display = 'none';
+                                    }
+                                });
                             });
                         });
-                    });
 
-                    // Add CSS animation
-                    const styleElement = document.createElement('style');
-                    styleElement.textContent = `
+                        // Add CSS animation
+                        const styleElement = document.createElement('style');
+                        styleElement.textContent = `
                 @keyframes fadeIn {
                     from { opacity: 0; transform: translateY(20px); }
                     to { opacity: 1; transform: translateY(0); }
@@ -820,9 +745,9 @@
                     animation: fadeIn 0.5s ease forwards;
                 }
             `;
-                    document.head.appendChild(styleElement);
-                });
-            </script>
+                        document.head.appendChild(styleElement);
+                    });
+                </script>
     </section>
 
     <!-- Experience Timeline Section -->
@@ -842,23 +767,23 @@
                 </div>
 
                 <!-- Timeline Items -->
-                <div class="timeline-items space-y-12">
+                <!-- <div class="timeline-items space-y-12"> -->
 
-                    <!-- Item 1 -->
-                    <div class="timeline-item">
-                        <div class="md:flex items-center">
-                            <!-- Left Side (Date for desktop) -->
-                            <div class="hidden md:block md:w-1/2 pr-12 text-right">
+                <!-- Item 1 -->
+                <!-- <div class="timeline-item">
+                        <div class="md:flex items-center"> -->
+                <!-- Left Side (Date for desktop) -->
+                <!-- <div class="hidden md:block md:w-1/2 pr-12 text-right">
                                 <span class="block text-indigo-400 font-semibold mb-1">06-08-2024 to 06-09-2024 </span>
-                            </div>
-                            <!-- Center Dot -->
-                            <div
+                            </div> -->
+                <!-- Center Dot -->
+                <!-- <div
                                 class="absolute left-0 md:left-1/2 transform -translate-y-1/4 md:-translate-x-1/2 w-6 h-6 rounded-full border-4 border-indigo-600 bg-slate-900 z-10">
-                            </div>
-                            <!-- Right Side (Content for desktop) -->
-                            <div class="md:w-1/2 md:pl-12 ml-8 md:ml-0">
-                                <!-- Mobile Only Date -->
-                                <span class="block md:hidden text-indigo-400 font-semibold mb-1">06-08-2024 to
+                            </div> -->
+                <!-- Right Side (Content for desktop) -->
+                <!-- <div class="md:w-1/2 md:pl-12 ml-8 md:ml-0"> -->
+                <!-- Mobile Only Date -->
+                <!-- <span class="block md:hidden text-indigo-400 font-semibold mb-1">06-08-2024 to
                                     06-09-2024 </span>
                                 <div
                                     class="bg-slate-800/50 backdrop-blur-sm p-6 rounded-lg border border-indigo-500/20 timeline-content opacity-0 transform translate-y-8 text-center">
@@ -869,105 +794,105 @@
                                     <div class="flex items-center justify-center gap-2 mb-3">
                                         <i class="ri-building-4-line"></i>
                                         <h4 class="text-white/80 font-medium">Ardent Computech PVT. LTD.</h4>
-                                    </div>
-                                    <!-- <a href="https://drive.google.com/your-certificate-link" target="_blank"
+                                    </div> -->
+                <!-- <a href="https://drive.google.com/your-certificate-link" target="_blank"
                                         class="text-blue-500 hover:text-blue-400 text-sm inline-block mt-2">
                                         📋 View Internship Certificate
                                     </a> -->
-                                </div>
+                <!-- </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <!-- Item 2 -->
-                    <!-- Left side content on desktop, with centered mobile -->
-                    <div class="timeline-item">
-                        <div class="md:flex md:flex-row-reverse items-center">
-                            <!-- Left side (for desktop) -->
-                            <div class="hidden md:block md:w-1/2 pl-12 text-left">
-                                <span class="block text-indigo-400 font-semibold mb-1">2022 - Present</span>
-                            </div>
+                <!-- Item 2 -->
+                <!-- Left side content on desktop, with centered mobile -->
+                <div class="timeline-item">
+                    <div class="md:flex md:flex-row-reverse items-center">
+                        <!-- Left side (for desktop) -->
+                        <div class="hidden md:block md:w-1/2 pl-12 text-left">
+                            <span class="block text-indigo-400 font-semibold mb-1">2022 - Present</span>
+                        </div>
 
-                            <!-- Center Dot -->
+                        <!-- Center Dot -->
+                        <div
+                            class="absolute left-0 md:left-1/2 transform -translate-y-1/4 md:-translate-x-1/2 w-6 h-6 rounded-full border-4 border-indigo-600 bg-slate-900 z-10">
+                        </div>
+
+                        <!-- Right side content (on desktop it's left aligned) -->
+                        <div class="md:w-1/2 md:pr-12 ml-8 md:ml-0">
+                            <!-- Mobile Only Date -->
+                            <span class="block md:hidden text-indigo-400 font-semibold mb-1">2022 - Present</span>
                             <div
-                                class="absolute left-0 md:left-1/2 transform -translate-y-1/4 md:-translate-x-1/2 w-6 h-6 rounded-full border-4 border-indigo-600 bg-slate-900 z-10">
-                            </div>
-
-                            <!-- Right side content (on desktop it's left aligned) -->
-                            <div class="md:w-1/2 md:pr-12 ml-8 md:ml-0">
-                                <!-- Mobile Only Date -->
-                                <span class="block md:hidden text-indigo-400 font-semibold mb-1">2022 - Present</span>
-                                <div
-                                    class="bg-slate-800/50 backdrop-blur-sm p-6 rounded-lg border border-indigo-500/20 timeline-content opacity-0 transform translate-y-8 text-center">
-                                    <div class="mb-3">
-                                        <h3 class="text-xl font-bold">Bachelor of Computer Science & Engineering</h3>
-                                    </div>
-                                    <div class="flex items-center justify-center gap-2 mb-3">
-                                        <i class="ri-building-4-line"></i>
-                                        <h4 class="text-white/80 font-medium"> NSHM Knowledge Campus</h4>
-                                    </div>
-                                    <p class="text-gray-400 mb-4">3rd year</p>
+                                class="bg-slate-800/50 backdrop-blur-sm p-6 rounded-lg border border-indigo-500/20 timeline-content opacity-0 transform translate-y-8 text-center">
+                                <div class="mb-3">
+                                    <h3 class="text-xl font-bold">Bachelor of Computer Science & Engineering</h3>
                                 </div>
+                                <div class="flex items-center justify-center gap-2 mb-3">
+                                    <i class="ri-building-4-line"></i>
+                                    <h4 class="text-white/80 font-medium"> NSHM Knowledge Campus</h4>
+                                </div>
+                                <p class="text-gray-400 mb-4">Final year</p>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Item 3 -->
-                    <div class="timeline-item">
-                        <div class="md:flex items-center">
+                <!-- Item 3 -->
+                <div class="timeline-item">
+                    <div class="md:flex items-center">
 
-                            <!-- Left Side (Date for desktop) -->
-                            <div class="hidden md:block md:w-1/2 pr-12 text-right">
-                                <span class="block text-indigo-400 font-semibold mb-1">2020 - 2021</span>
-                            </div>
+                        <!-- Left Side (Date for desktop) -->
+                        <div class="hidden md:block md:w-1/2 pr-12 text-right">
+                            <span class="block text-indigo-400 font-semibold mb-1">2020 - 2021</span>
+                        </div>
 
-                            <!-- Center Dot -->
+                        <!-- Center Dot -->
+                        <div
+                            class="absolute left-0 md:left-1/2 transform -translate-y-1/4 md:-translate-x-1/2 w-6 h-6 rounded-full border-4 border-indigo-600 bg-slate-900 z-10">
+                        </div>
+
+                        <!-- Right Side (Content for all views) -->
+                        <div class="md:w-1/2 md:pl-12 ml-8 md:ml-0">
+                            <!-- Mobile Only Date -->
+                            <span class="block md:hidden text-indigo-400 font-semibold mb-1">2020 - 2021</span>
+
                             <div
-                                class="absolute left-0 md:left-1/2 transform -translate-y-1/4 md:-translate-x-1/2 w-6 h-6 rounded-full border-4 border-indigo-600 bg-slate-900 z-10">
-                            </div>
-
-                            <!-- Right Side (Content for all views) -->
-                            <div class="md:w-1/2 md:pl-12 ml-8 md:ml-0">
-                                <!-- Mobile Only Date -->
-                                <span class="block md:hidden text-indigo-400 font-semibold mb-1">2020 - 2021</span>
-
-                                <div
-                                    class="bg-slate-800/50 backdrop-blur-sm p-6 rounded-lg border border-indigo-500/20 timeline-content opacity-100 transform translate-y-0 text-center">
-                                    <div class="mb-3">
-                                        <h3 class="text-xl font-bold">Higher Secondary School</h3>
-                                    </div>
-                                    <h4 class="text-white/80 font-medium mb-3 flex items-center justify-center gap-2">
-                                        Imperial School of Learning <i class="ri-building-2-line"></i>
-                                    </h4>
-                                    <p class="text-gray-400 mb-4">
-                                        Grade: First Class Distinction
-                                    </p>
+                                class="bg-slate-800/50 backdrop-blur-sm p-6 rounded-lg border border-indigo-500/20 timeline-content opacity-100 transform translate-y-0 text-center">
+                                <div class="mb-3">
+                                    <h3 class="text-xl font-bold">Higher Secondary School</h3>
                                 </div>
+                                <h4 class="text-white/80 font-medium mb-3 flex items-center justify-center gap-2">
+                                    Imperial School of Learning <i class="ri-building-2-line"></i>
+                                </h4>
+                                <p class="text-gray-400 mb-4">
+                                    Grade: First Class Distinction
+                                </p>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Add this to your existing JavaScript -->
-                    <script>
-                        // Intersection Observer for Timeline Animation
-                        document.addEventListener('DOMContentLoaded', () => {
-                            const timelineContents = document.querySelectorAll('.timeline-content');
+                <!-- Add this to your existing JavaScript -->
+                <script>
+                    // Intersection Observer for Timeline Animation
+                    document.addEventListener('DOMContentLoaded', () => {
+                        const timelineContents = document.querySelectorAll('.timeline-content');
 
-                            const observer = new IntersectionObserver((entries) => {
-                                entries.forEach(entry => {
-                                    if (entry.isIntersecting) {
-                                        entry.target.style.opacity = '1';
-                                        entry.target.style.transform = 'translateY(0)';
-                                        entry.target.style.transition = 'opacity 0.5s ease, transform 0.7s ease';
-                                    }
-                                });
-                            }, { threshold: 0.2 });
-
-                            timelineContents.forEach(content => {
-                                observer.observe(content);
+                        const observer = new IntersectionObserver((entries) => {
+                            entries.forEach(entry => {
+                                if (entry.isIntersecting) {
+                                    entry.target.style.opacity = '1';
+                                    entry.target.style.transform = 'translateY(0)';
+                                    entry.target.style.transition = 'opacity 0.5s ease, transform 0.7s ease';
+                                }
                             });
+                        }, { threshold: 0.2 });
+
+                        timelineContents.forEach(content => {
+                            observer.observe(content);
                         });
-                    </script>
+                    });
+                </script>
     </section>
 
 
@@ -1036,7 +961,7 @@
                                 class="bg-slate-700 hover:bg-indigo-600 transition-colors duration-300 p-3 rounded-lg text-white">
                                 <i class="ri-linkedin-fill text-xl"></i>
                             </a>
-                            <a href="https://github.com/KamalNayanTiwary"
+                            <a href="https://github.com/KamalNayanTiwary?tab=repositories"
                                 class="bg-slate-700 hover:bg-indigo-600 transition-colors duration-300 p-3 rounded-lg text-white">
                                 <i class="ri-github-fill text-xl"></i>
                             </a>
@@ -1212,33 +1137,46 @@
                 <div class="space-y-4">
                     <h3 class="text-lg font-semibold text-white">Services</h3>
                     <ul class="space-y-2">
+
+                        <!-- Data Cleaning & Preprocessing -->
                         <li>
                             <a href="#"
                                 class="text-gray-400 hover:text-white transition-colors duration-300 flex items-center gap-2">
-                                <i class="ri-code-box-line"></i> Web Development
+                                <i class="ri-database-2-line"></i> Data Cleaning & Preprocessing
                             </a>
                         </li>
+                        <!-- Exploratory Data Analysis -->
                         <li>
                             <a href="#"
                                 class="text-gray-400 hover:text-white transition-colors duration-300 flex items-center gap-2">
-                                <i class="ri-palette-line"></i> UI/UX Design
+                                <i class="ri-bar-chart-line"></i> Exploratory Data Analysis (EDA)
                             </a>
                         </li>
+                        <!-- Dashboard & Visualization -->
                         <li>
                             <a href="#"
                                 class="text-gray-400 hover:text-white transition-colors duration-300 flex items-center gap-2">
-                                <i class="ri-smartphone-line"></i> Mobile Development
+                                <i class="ri-pie-chart-2-line"></i> Dashboard & Visualization
                             </a>
                         </li>
+                        <!-- SQL Data Handling -->
                         <li>
                             <a href="#"
                                 class="text-gray-400 hover:text-white transition-colors duration-300 flex items-center gap-2">
-                                <i class="ri-server-line"></i> Backend Solutions
+                                <i class="ri-database-line"></i> SQL Querying & Data Handling
+                            </a>
+                        </li>
+                        <!-- Business Insights -->
+                        <li>
+                            <a href="#"
+                                class="text-gray-400 hover:text-white transition-colors duration-300 flex items-center gap-2">
+                                <i class="ri-lightbulb-flash-line"></i> Business Insights & Reporting
                             </a>
                         </li>
 
                     </ul>
                 </div>
+
 
                 <!-- Contact Info -->
                 <div class="space-y-4">
