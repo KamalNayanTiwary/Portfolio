@@ -22,22 +22,6 @@ This project is designed to showcase my journey, skills, and projects in **Data 
 
 ---
 
-## 📂 Featured Projects
-1. 📊 **Sales Data Analysis (Python + Excel)**  
-   - Cleaned raw sales dataset  
-   - Built pivot tables & charts  
-   - Extracted insights on revenue trends, customer behavior, and product performance  
-
-2. 📈 **Retail Store Dashboard (Power BI)**  
-   - Designed interactive dashboards for CEO & CMO  
-   - Time series analysis, top customers by revenue, regional demand insights  
-
-3. 🛒 **E-commerce Analytics Dashboard**  
-   - Analyzed online sales data  
-   - Highlighted KPIs such as top products, revenue growth, and customer segmentation  
-
----
-
 ## 📸 Portfolio Preview
 👉 [Live Portfolio Link](https://portfolio-xi-fawn-67.vercel.app/) 
 
