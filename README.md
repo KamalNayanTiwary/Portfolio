@@ -44,10 +44,6 @@ This project is designed to showcase my journey, skills, and projects in **Data 
 ---
 
 ## 📬 Contact
-- **Email:** techclasses0810@gmail.com  
-- **LinkedIn:** [linkedin.com/in/kamal-nayan-tiwary](#)  
-- **GitHub:** [github.com/yourusername](#)  
+- **Email:** kamalnayantiwary73@gmail.com  
+- **LinkedIn:** [https://www.linkedin.com/in/kamal-nayan-tiwary-2022-2026-/](#)   
 
----
-
-⭐ If you found my portfolio useful or inspiring, please give this repo a star!
