@@ -39,7 +39,7 @@ This project is designed to showcase my journey, skills, and projects in **Data 
 ---
 
 ## 📸 Portfolio Preview
-👉 [Live Portfolio Link](#) *(Add your deployed portfolio link here)*  
+👉 [Live Portfolio Link](#) *(https://portfolio-xi-fawn-67.vercel.app/)*  
 
 ---
 
