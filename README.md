@@ -16,7 +16,7 @@ This project is designed to showcase my journey, skills, and projects in **Data 
 
 ## 🛠️ Skills & Tools
 - **Programming & Data Analysis:** Python, Pandas, NumPy, Matplotlib  
-- **Databases & Querying:** SQL, MySQL  
+- **Databases & Querying:** SQL  
 - **Visualization & BI Tools:** Power BI, Excel  
 - **Other Tools:** Git, GitHub  
 
