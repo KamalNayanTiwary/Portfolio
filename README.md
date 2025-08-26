@@ -49,6 +49,9 @@ My focus lies in combining technical expertise with business understanding to de
 
 ---
 
-## 📬 Contact  
-- 📧 **Email:** kamalnayantiwary73@gmail.com  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/kamal-nayan-tiwary-2022-2026-/)  
+## Author & Contact
+**Kamal Nayan Tiwary**  
+**Data Analyst** 
+
+📧 **kamalnayantiwary73@gmail.com**  
+🔗 [LinkedIn](https://www.linkedin.com/in/kamal-nayan-tiwary-2022-2026-/)  
