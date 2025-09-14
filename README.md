@@ -9,7 +9,7 @@ Here, I showcase my skills, learning path, and the tools I use to transform raw 
 ## 👨‍💻 About Me  
 I am an **aspiring Data Analyst** who loves working with data and uncovering patterns that help in making better business decisions.  
 My focus lies in combining technical expertise with business understanding to deliver impactful insights.  
-
+ 
 - 📊 Strong **analytical & problem-solving** mindset  
 - 🐍 Proficient in **Python (Pandas, NumPy, Matplotlib)** for data manipulation & visualization  
 - 🗄️ Hands-on with **SQL** for querying and relational database management  
